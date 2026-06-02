@@ -1,4 +1,4 @@
-🤖 Rule-Based Chatbot using Python
+🤖 RULE BASED CHATBOT USING PYTHON
 🚀 This project was developed as part of my CodSoft Artificial Intelligence Internship (Task-01), where I built a simple Rule-Based Chatbot that responds to user queries using predefined rules and pattern matching techniques.
 📌 Project Objective
 The objective of this project is to create a chatbot that can understand user inputs and provide appropriate responses based on predefined conditions using Python.
