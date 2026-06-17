@@ -165,45 +165,30 @@ The Tic-Tac-Toe AI project demonstrates how Artificial Intelligence can be used 
 
 TASK: 4
 # 🎬 Movie Recommendation System
-
 ## 📌 Project Overview
-
 This project demonstrates a simple **Content-Based Movie Recommendation System** developed using Python and Machine Learning concepts. The system recommends similar movies based on their genres by calculating text similarity between movie features.
-
 The project is designed to showcase how recommendation engines work using Natural Language Processing (NLP) techniques and cosine similarity.
-
 ---
-
 ## 🎯 Objectives
-
 * Build a movie recommendation system using Python.
 * Apply NLP techniques for feature extraction.
 * Calculate similarity between movies using cosine similarity.
 * Recommend movies based on user preferences.
 * Visualize movie genre distribution and similarity relationships.
-
 ---
-
 ## 🛠️ Technologies Used
-
 * Python
 * Pandas
 * NumPy
 * Scikit-Learn
 * Matplotlib
 * Seaborn
-
 ---
-
 ## 📂 Dataset
-
 A sample movie dataset is created containing:
-
 * Movie Titles
 * Movie Genres
-
 Example Movies:
-
 * Avatar
 * Titanic
 * Avengers Endgame
@@ -214,77 +199,46 @@ Example Movies:
 * Inception
 * Doctor Strange
 * Thor Ragnarok
-
 ---
-
 ## ⚙️ Project Workflow
-
 ### Step 1: Import Required Libraries
-
 Load Python libraries for data processing, visualization, and machine learning.
-
 ### Step 2: Create Dataset
-
 Create a movie dataset containing movie names and genres.
-
 ### Step 3: Save Dataset
-
 Store the dataset as a CSV file (`movies.csv`).
-
 ### Step 4: Feature Extraction
-
 Use **CountVectorizer** to convert genre text into numerical vectors.
-
 ### Step 5: Similarity Calculation
-
 Compute movie similarity using **Cosine Similarity**.
-
 ### Step 6: Recommendation Engine
-
 Find movies with similar genres and recommend the top matching movies.
-
 ### Step 7: Data Visualization
-
 Generate:
-
 * Movie Genre Distribution Chart
 * Movie Similarity Heatmap
-
 ### Step 8: User Input Recommendation
-
 Allow users to enter a movie name and receive recommendations.
-
 ---
-
 ## 📊 Sample Output
-
 ### Input
-
 Iron Man
-
 ### Recommended Movies
-
 * Avengers Endgame
 * Doctor Strange
 * Thor Ragnarok
 * Avatar
 * The Dark Knight
-
 ---
-
 ## 📈 Visualizations
-
 ### Genre Distribution
-
 Displays the frequency of movie genres in the dataset.
-
 ### Similarity Matrix Heatmap
 Shows similarity scores between movies using a heatmap.
 ---
 ## 🚀 How to Run
 1. Open Google Colab or Jupyter Notebook.
 2. Install required libraries:
-
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn
    ```
@@ -307,3 +261,86 @@ Cosine Similarity measures how similar two movies are based on their feature vec
 ---
 ## 📄 Conclusion
 The Movie Recommendation System successfully recommends similar movies using content-based filtering techniques. This project demonstrates the fundamentals of recommendation engines and serves as a foundation for building more advanced recommendation systems using larger datasets and additional features.
+
+TASK 5:
+
+# Face Detection and Recognition System
+
+## 📌 Project Overview
+The Face Detection and Recognition System is a computer vision application developed using Python, OpenCV, Haar Cascade Classifier, and Deep Learning techniques. The system is capable of detecting human faces in images and recognizing individuals by comparing facial features with a predefined dataset.
+
+This project demonstrates the practical implementation of facial recognition technology, which is widely used in security systems, attendance management, surveillance, and authentication applications.
+---
+## 🎯 Objectives
+* Detect human faces from images.
+* Recognize and verify individuals using facial feature extraction.
+* Compare unknown faces with a stored face dataset.
+* Implement real-time face recognition concepts using Deep Learning.
+* Understand the applications of Computer Vision in identity verification.
+---
+## 🛠️ Technologies Used
+* Python
+* OpenCV
+* DeepFace
+* Haar Cascade Classifier
+* FaceNet Model
+* NumPy
+* Matplotlib
+* Google Colab
+---
+## 📂 Dataset Structure
+```text
+dataset/
+│
+├── Person1/
+│   ├── img1.jpg
+│   └── img2.jpg
+│
+├── Person2/
+│   ├── img1.jpg
+│   └── img2.jpg
+```
+Each folder contains multiple facial images of a particular person that are used for training and recognition.
+---
+## ⚙️ Methodology
+### 1. Face Detection
+The system uses OpenCV's Haar Cascade Classifier to identify and locate faces within an image.
+### 2. Face Recognition
+DeepFace with the FaceNet model extracts facial embeddings and compares them with stored images to determine identity.
+### 3. Face Verification
+The system checks whether two facial images belong to the same person based on similarity scores.
+### 4. Dataset Matching
+An uploaded test image is compared against all images in the dataset, and the closest match is identified as the recognized person.
+---
+## 📊 Features
+* Automatic face detection
+* Face verification between two images
+* Recognition from a custom dataset
+* Bounding box visualization for detected faces
+* Deep Learning-based facial feature extraction
+* Easy execution in Google Colab
+---
+## 📈 Applications
+* Attendance Management Systems
+* Smart Surveillance Systems
+* Biometric Authentication
+* Access Control Systems
+* Security Monitoring
+* Visitor Identification Systems
+---
+## 🚀 Results
+The system successfully detects faces from images and accurately recognizes individuals by comparing facial embeddings generated through Deep Learning models. Detected faces are highlighted with bounding boxes, and recognition results are displayed with the identified person's name.
+---
+## ✅ Conclusion
+This project demonstrates how Computer Vision and Deep Learning can be combined to build an effective Face Detection and Recognition System. By utilizing OpenCV for face detection and DeepFace for facial recognition, the application provides accurate identity verification and serves as a foundation for advanced biometric security solutions.
+---
+## 🔮 Future Enhancements
+* Real-time webcam face recognition
+* Attendance tracking system integration
+* Multi-face recognition in video streams
+* Cloud database support
+* Emotion and age detection
+* Mobile application deployment
+---
+### Author
+Developed as part of an Artificial Intelligence / Computer Vision project using Python and Deep Learning techniques.
