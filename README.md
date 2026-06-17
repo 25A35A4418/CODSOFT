@@ -162,3 +162,148 @@ Through this project, I gained knowledge of:
 ---
 ## 🏆 Conclusion
 The Tic-Tac-Toe AI project demonstrates how Artificial Intelligence can be used to make optimal decisions in strategic games. By implementing the Minimax Algorithm, the AI becomes unbeatable and provides a practical understanding of game theory and search algorithms used in modern AI systems.
+
+TASK: 4
+# 🎬 Movie Recommendation System
+
+## 📌 Project Overview
+
+This project demonstrates a simple **Content-Based Movie Recommendation System** developed using Python and Machine Learning concepts. The system recommends similar movies based on their genres by calculating text similarity between movie features.
+
+The project is designed to showcase how recommendation engines work using Natural Language Processing (NLP) techniques and cosine similarity.
+
+---
+
+## 🎯 Objectives
+
+* Build a movie recommendation system using Python.
+* Apply NLP techniques for feature extraction.
+* Calculate similarity between movies using cosine similarity.
+* Recommend movies based on user preferences.
+* Visualize movie genre distribution and similarity relationships.
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* Matplotlib
+* Seaborn
+
+---
+
+## 📂 Dataset
+
+A sample movie dataset is created containing:
+
+* Movie Titles
+* Movie Genres
+
+Example Movies:
+
+* Avatar
+* Titanic
+* Avengers Endgame
+* Iron Man
+* The Dark Knight
+* Batman Begins
+* Interstellar
+* Inception
+* Doctor Strange
+* Thor Ragnarok
+
+---
+
+## ⚙️ Project Workflow
+
+### Step 1: Import Required Libraries
+
+Load Python libraries for data processing, visualization, and machine learning.
+
+### Step 2: Create Dataset
+
+Create a movie dataset containing movie names and genres.
+
+### Step 3: Save Dataset
+
+Store the dataset as a CSV file (`movies.csv`).
+
+### Step 4: Feature Extraction
+
+Use **CountVectorizer** to convert genre text into numerical vectors.
+
+### Step 5: Similarity Calculation
+
+Compute movie similarity using **Cosine Similarity**.
+
+### Step 6: Recommendation Engine
+
+Find movies with similar genres and recommend the top matching movies.
+
+### Step 7: Data Visualization
+
+Generate:
+
+* Movie Genre Distribution Chart
+* Movie Similarity Heatmap
+
+### Step 8: User Input Recommendation
+
+Allow users to enter a movie name and receive recommendations.
+
+---
+
+## 📊 Sample Output
+
+### Input
+
+Iron Man
+
+### Recommended Movies
+
+* Avengers Endgame
+* Doctor Strange
+* Thor Ragnarok
+* Avatar
+* The Dark Knight
+
+---
+
+## 📈 Visualizations
+
+### Genre Distribution
+
+Displays the frequency of movie genres in the dataset.
+
+### Similarity Matrix Heatmap
+Shows similarity scores between movies using a heatmap.
+---
+## 🚀 How to Run
+1. Open Google Colab or Jupyter Notebook.
+2. Install required libraries:
+
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn
+   ```
+3. Run all notebook cells.
+4. Enter a movie name when prompted.
+5. View recommended movies and visualizations.
+---
+## 🔍 Machine Learning Concept Used
+### Content-Based Filtering
+The recommendation system suggests movies based on similarity between movie genres rather than user ratings.
+### Cosine Similarity
+Cosine Similarity measures how similar two movies are based on their feature vectors.
+---
+## 📚 Learning Outcomes
+* Understanding recommendation systems.
+* Working with text feature extraction.
+* Implementing cosine similarity.
+* Performing data visualization.
+* Building basic machine learning applications.
+---
+## 📄 Conclusion
+The Movie Recommendation System successfully recommends similar movies using content-based filtering techniques. This project demonstrates the fundamentals of recommendation engines and serves as a foundation for building more advanced recommendation systems using larger datasets and additional features.
